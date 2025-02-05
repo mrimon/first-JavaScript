@@ -1,6 +1,20 @@
-// how to calculate  to fahrenheit   
+// conditional statement
 
-var cel = parseFloat(prompt("Enter Celsius :"));
-var fah = (((cel * 9/5) + 32).toFixed(2));
+const salary = 20000;
+const isBCS = true;
 
-document.write("Fahrenheit =" + fah);
+if (salary > 20000 || isBCS){
+    console.log("he is selected")
+}
+else{
+    console.log("ja muri kha")
+}
+
+
+// another one
+if (salary > 20000 && isBCS){
+    console.log("he is selected")
+}
+else {
+    console.log("ja muri kha")
+}
