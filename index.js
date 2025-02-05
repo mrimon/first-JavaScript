@@ -1,6 +1,6 @@
-// how to calculate fahrenheit to celsius  
+// how to calculate  to fahrenheit   
 
-var fah = parseFloat(prompt("Enter Fahrenheit :"));
-var cel = ((fah -32) * (5/9).toFixed(2));
+var cel = parseFloat(prompt("Enter Celsius :"));
+var fah = (((cel * 9/5) + 32).toFixed(2));
 
-document.write("Celsius =" + cel);
+document.write("Fahrenheit =" + fah);
